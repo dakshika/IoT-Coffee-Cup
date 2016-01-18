@@ -1,0 +1,46 @@
+.slider{
+    float: left;
+}
+.coffee-container{
+    float: left;
+    position: relative;
+}
+.coffee-container img {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    z-index: 99;
+}
+#water {
+    background-image: url("../images/coffee-w.png");
+    background-position: top right;
+    position: absolute;
+    bottom: 110px;
+    width: 100%;
+    height: 100px;
+    -webkit-transition: all 3s ease-out;
+    -moz-transition: all 3s ease-out;
+    -o-transition: all 3s ease-out;
+    transition: all 3s ease-out;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/*#water {
+    height: 230px;
+    background-position: top left;
+    -webkit-transition: all 3s ease-out;
+    -moz-transition: all 3s ease-out;
+    -o-transition: all 3s ease-out;
+    transition: all 3s ease-out;
+}*/
+
+input[type=range][orient=vertical]
+{
+    writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical; /* WebKit */
+    width: 8px;
+    height: 175px;
+    padding: 0 5px;
+}
